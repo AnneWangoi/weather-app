@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+}
+
+.weather-app {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  text-align: center;
+  width: 350px;
+}
+
+.weather-app h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#cityInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+#searchBtn {
+  padding: 10px 15px;
+  background-color: #4A90D9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#searchBtn:hover {
+  background-color: #357ab8;
+}
+.weather-result img {
+  width: 80px;
+}
+
+.weather-result h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.temp {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+.desc {
+  text-transform: capitalize;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.humidity {
+  font-size: 14px;
+  color: #888;
+}
