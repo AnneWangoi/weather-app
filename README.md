@@ -1,7 +1,7 @@
 # Weather App
-
 A simple, responsive weather app that shows real-time weather data for any city, built using HTML, CSS, and JavaScript.
-
+## Live Demo
+[View it live](https://annewangoi.github.io/weather-app/)
 ## Features
 - Search weather by city name
 - Press Enter or click Search to get results
